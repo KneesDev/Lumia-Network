@@ -1,6 +1,9 @@
 :root {
     --main-color: #aa00aa;
     --main-color-dark: #770077;
+    --blurple-color: #5865f2;
+    --blurple-color-dark: #4752cc;
+    --blurple-border-color: #737de9;
     --border-color: hsla(0, 0%, 100%, 0.349);
     --copy-ip-hover: rgba(255, 255, 255, 0.102);
     --copy-ip-click: rgba(255, 255, 255, 0.2);
@@ -381,6 +384,12 @@ nav a {
     font-weight: bold;
     font-size: 1.2rem;
     text-transform: uppercase;
+}
+
+nav a.discord {
+    background: var(--blurple-color);
+    border: 2px solid var(--blurple-border-color);
+    box-shadow: 0px 5px 0px var(--blurple-color-dark);
 }
 
 nav a:hover {
